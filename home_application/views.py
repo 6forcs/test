@@ -31,3 +31,9 @@ def contactus(request):
     联系我们
     """
     return render_mako_context(request, '/home_application/contact.html')
+
+def hello_word(request):
+    """
+    Hello Word!
+    """
+    return render_mako_context(request, '/home_application/hello_word.html')
